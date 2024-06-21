@@ -32,7 +32,7 @@ function Navbar() {
   };
 
   function themeFromLocalStorage() {
-    return localStorage.getItem("theme") || "emerland";
+    return localStorage.getItem("theme") || "dracula";
   }
 
   const handleTheme = () => {

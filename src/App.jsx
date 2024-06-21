@@ -28,7 +28,9 @@ import { actions as RegisterAction } from "./pages/Register";
 import { useGlobalContext } from "./hooks/useGlobalContext";
 import ProtectedRoutes from "./components/ProtectedRoutes"
 
+
 function App() {
+
   const { user, dispatch, isAuthChange } = useGlobalContext();
   const routes = createBrowserRouter([
     {

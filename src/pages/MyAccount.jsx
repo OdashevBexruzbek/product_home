@@ -7,7 +7,7 @@ function Dashboard() {
   return (
     <>
       <h1 className="font-black text-5xl">My profile</h1>
-      <div className="card w-96 h-4/5 glass mt-12">
+      <div className="card w-96 h-4/5 glass mt-12 mb-28">
         <div className="flex gap-12 justfy-center">
           <img
             className="w-24 ml-6 mt-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2"
