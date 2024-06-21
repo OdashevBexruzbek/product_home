@@ -22,7 +22,7 @@ function Register() {
         <FormInput type="email" labelText="Email:" name="email" />
         <FormInput type="password" labelText="Password" name="password" />
         <div className="mt-6">
-          <button className="btn btn-secondary btn-block">Register</button>
+          <button onClick={signUpWithGoogle} className="btn btn-secondary btn-block">Register</button>
         </div>
         <button
           type="button"
